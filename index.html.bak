@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Krishna Batham</h1>
+            <h2>Full Stack Developer</h2>
+            <a href="./resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                       Hey I'm Krishna Batham pursuing my B-Tech Degree with Computer Science & Engineering Branch.I'm passionate to know about the different technology. I'm good in doing the development part. I have done so many project in different fields like hardware part , software part with java as my prefered language ,Cloud Computing ( like Amazon aws ,Microsoft azure and IBM waston) part and web part . So bascially i have different variety of knowledge in technology that's why i'm different from the others student and able to understand the client requirement and i will give my best to make easy for the client to understand the technical terms.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+	 <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>FET Agra College, Agra affliated to AKTU Lucknow </h3>
+            <span class="education-date">1 August 2016 - 1 June 2020</span>
+            <h4>Bachelor of Technology in Computer Science & Engineering<br>with 66.4 %.</h4>
+           
+        </div>
+		<div class ="education-block">
+		      <h3>Colonel's Brightland Public School, Agra</h3>
+		      <span class="education-date">1 August 2014 - 1 June 2015</span>
+			  <h4> All India Senior School Certificate Examination (AISSCE).<br>12th grade with 82.4 %.</h4>
+			  <h4></h4>
+		</div>
+        <!-- End .education-block -->
+		<div class ="education-block">
+		      <h3>Colonel's Brightland Public School, Agra</h3>
+		      <span class="education-date">1 August 2012 - 1 June 2013</span>
+			  <h4> All India Secondary School Examination (AISSE).<br>10th grade with 54.4 %.</h4>
+		</div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+	<div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>C</li>
+			<li>Java</li>
+			<li>JDBC</li>
+			<li>Oracle 11gXE Database</li>
+            <li>Servlet</li>
+            <li>JSP</li>
+			<li>Hibernate</li>
+			<li>Spring Boot</li>
+			<li>Spring MVC</li>			
+			<li>Web Services</li>
+            <li>Cloud Computing(AI Services)</li>
+			<li>Internet of Things(IOT)</li>
+			<li>Restful Webservices</li>			
+            <li>Android</li>
+            <li>Embedded System</li>
+			<li>Wordpress</li>
+            <li>AdobeXD</li>
+			<li>Photoshop</li>
+			<li>UI/UX</li>     
+            
+            
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Projects Work</h2>
+        <div id="experience-timeline">
+		<div data-date="16 Nov 2019 – 18 Nov 2019">
+                <h3>Cosmic Creation Studio</h3>
+                <h4>WordPress Website</h4>
+                <p>
+                  Cosmic Creation Studio are a full-service studio specializing in digital marketing, graphics design & 2d/3d animation production. They are commited to contributing the best customer service possible. They will approach every situation with passion and purpose and anticipate the client need and exceeds client expectations.Professionals are here to help.<br>
+				  Visit : <a href="https://cosmicstudio.in/">Click Here.</a>
+				  </p>
+            </div>
+            <div data-date="5 Oct 2019 – 29 Oct 2019">
+                <h3>Cloud Titans</h3>
+                <h4>IOT Based Desktop App</h4>
+                <p>
+                    Cloud titans is my final year Desktop software project which are developed through me and my friend. This project is based on IoT and with this software, user can access there electronics devices remotely from anywhere. This software having SignUp page, login page which are authenticated by oracle 11g Database and having an OptionsHolder screen which work for request and response from the broker website.
+                   <br> <b>Note :-</b></br> My software needs a wifi and relay module to connect with electronic device and then that device will able to connect with the internet.
+                </p>
+            </div>
+
+            <div data-date="12 June 2019 –16 June 2019">
+                <h3>Document Converter</h3>
+                <h4>Java Based Desktop App</h4>
+                <p>
+                   Developed a Document Converter which convert TEXT to PDF, DOCX to PDF TEXT to DOCX etc using IText API.
+                </p>
+            </div>
+
+            <div data-date="1 March 2019 – 9 March 2019">
+                <h3>College Management System</h3>
+                <h4>Java Based Desktop App</h4>
+                <p>
+                    Developed a College Management System which is written in java using JDBC technology with swing awt as skilled as a toolset and IDE used for delevope was Netbean.
+                </p>
+            </div>
+			
+			<div data-date="9 September 2018 – 16 September 2018">
+                <h3>pH+ A promise of Good Health </h3>
+                <h4>WordPress Website</h4>
+                <p>
+                    pH+ are driven to deliver good health with his genuine products. In association with i-water, pH+ is offering healthiest water that will not just hydrate your body but will also nullify the health hazards posed by acids entering our bodies through the food we consume and our lifestyle choices.<br>
+					Visit :-<a href="http://www.phplus.in/">Click Here.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+   <!--
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image --
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info --
+                </div>
+                <!-- End .project --
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image --
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>                       
+						Get In Touch : Krishna9412@gmail.com<br>
+						Contact Number : 7037533777
+						<br>
+						Copyright &copy; 2019 KrishnaBatham
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Krishna-JavaDev/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/krishna-batham-772606171/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                       
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
